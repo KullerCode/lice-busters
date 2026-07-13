@@ -4,3 +4,10 @@ body {
 h1 {
     text-align: center;
 }
+ul {
+  list-style: none;   /* Removes the dots */
+  margin: 0;
+  padding: 0;
+  display: flex;      /* Makes items horizontal */
+  gap: 20px;          /* Space between links */
+}

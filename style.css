@@ -11,3 +11,6 @@ ul {
   display: flex;      /* Makes items horizontal */
   gap: 20px;          /* Space between links */
 }
+img {
+    min-width: 100px;
+}

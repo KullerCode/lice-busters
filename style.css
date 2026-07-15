@@ -42,3 +42,9 @@ body{
 footer{
     font-size:1rem;
 }
+
+.homepage-logo {
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+}

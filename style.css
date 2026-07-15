@@ -1,50 +1,47 @@
 body {
-    background-color: #BFD7EA;
-}
-h1 {
-    text-align: center;
-}
-ul {
-  list-style: none;   /* Removes the dots */
-  margin: 0;
-  padding: 0;
-  display: flex;      /* Makes items horizontal */
-  gap: 20px;          /* Space between links */
-}
-/* img {
-    min-width: 100px;
-} */
-
-body{
-    /* background:#eef7ff; */
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-.navbar{
-    background:#003366;
-}
-
-.nav-link{
-    color:white !important;
-    font-weight:600;
-    margin:0 10px;
-}
-
-.nav-link:hover{
-    color:#ffd54f !important;
-}
-
-.card{
-    border:none;
-    border-radius:15px;
-}
-
-footer{
-    font-size:1rem;
+  background-color: #bfd7ea;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .homepage-logo {
-    max-width: 220px;
-    width: 100%;
-    height: auto;
+  width: 180px;
+  max-width: 60%;
+  height: auto;
+}
+
+.contact-card {
+  max-width: 500px;
+  border: none;
+  border-radius: 15px;
+}
+
+.contact-card a {
+  color: #003366;
+  overflow-wrap: anywhere;
+}
+
+.contact-card a:hover {
+  text-decoration: underline !important;
+}
+
+.homepage-content {
+  max-width: 750px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #ffd54f;
 }
